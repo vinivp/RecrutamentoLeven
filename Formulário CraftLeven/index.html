@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Extensão CSS-->
+    <link rel="stylesheet" href="./css/LevenForms.css">
+    <!-- Extensão JavaScript-->
+    <script src="./JavaScript/LevenForms.js"></script>
+    <!-- Declaração da página -->
+    <title>Formulário CraftLeven</title>
+    <!-- Descrição da página -->
+    <meta name="Description" content="Visite meu portifólio, criado desde 2021, encontre alguns de meus projetos e divirta-se">
+</head>
+
+<body>
+    <header>
+        <h1 id="nome_header"><i id="he_1"><b>Craft</b></i><i id="he_2">Leven</i> - <i id="staff">Recrutamento</i></h1>
+    </header>
+
+    <div id="conteudo">
+        
+        <div id="requisited">
+            <h2>Requisitos</h2>
+            <p> Seguir as regras do servidor.<br>
+                Ter pelo menos 14 anos.<br>
+                Gostar de trabalhar em equipe.<br>
+                Ser paciente para entender e ajudar o player.<br>
+                Ser honesto(a) com todos.<br>
+                Ter tempo para o servidor.<br>
+                Ter microfone e fone.<br>
+                Manter uma boa reputação.<br>
+            </p>
+        </div>
+<img id="logo" src="./img/logo_png.png" alt="Gif Logo">
+        <div id="form">
+            <form>
+             <h2>Formulário</h2>
+                <div>
+                    <label><b>Seu Nome:</b></label><br>
+                    <input id="cp_txt" type="text" name="Nome" placeholder="Samael" required><br>
+
+                    <label><b>Qual seu nick no servidor?</b></label><br>
+                    <input id="cp_txt" type="text" name="Nome" placeholder="Sadysh" required><br>
+
+                    <label><b>Qual o seu nick no discord?(Com tag ex: usuario#4545)</b></label><br>
+                    <input id="cp_txt" type="text" name="Nome" placeholder="Sadysh#8721" required><br>
+
+                    <label><b>Qual o seu email?</b></label><br>
+                    <input id="cp_txt" type="email" name="email" placeholder="email@hotmail.com.br" required><br>
+
+                    <label><b>Quantos anos você tem?</b></label><br>
+                    <input id="cp_txt" type="text" name="Nome" placeholder="10" required><br>
+
+                    <label><b>Qual cargo você deseja se candidatar?</b></label><br>
+                    <select>
+                        <option id="cp_txt" required><b>Escolha</b></option>
+                        <option value="Suporte"><b>Suporte</b></option>
+                        <option value="Moderador"><b>Moderador</b></option>
+                        <option value="Builder"><B>Builder</B></option>
+                        <option value="Desenvolvedor"><b>Desenvolvedor</b></option>
+                    </select><br>
+
+                    <label><b>Qual o seu genero?</b> </label><br>
+                    <input class="op" type="radio" name="radiol" value="1">Masculino
+                    <input class="op" type="radio" name="radiol" value="2">Feminino<br>
+
+                    <label><b>Data de nascimento</b><br></label>
+                    <input id="nascimento" type="date" name="calendario" required><br>
+
+                    <label><b>Qual sua disponibilidade horária? </b></label><br>
+                    <input class="op" type="radio" name="radiol" value="01">1-2h por dia<br>
+                    <input class="op" type="radio" name="radiol" value="02">3-4h por dia<br>
+                    <input class="op" type="radio" name="radiol" value="03">6-9h por dia<br>
+                    <input class="op" type="radio" name="radiol" value="04">Mais de 10hr<br>
+
+                    <label><b>Trabalha ou estuda?Fale brevemente sobre isso</b></label><br>
+                    <textarea class="campo" id="campo" type="text" name="texto" placeholder="Responda aqui!" required></textarea><br>
+
+                    <label><b>Possui responsabilidade de staff em outro servidor?</b></label><br>
+                    <input class="op" type="radio" name="radiol" value="001">Sim<br>
+                    <input class="op" type="radio" name="radiol" value="002">Não<br>
+
+                    <label><b>Como você poderia contribuir para a equipe do servidor?</b></label>
+                    <textarea class="campo" id="campo" type="text" name="equipe" placeholder="Responda aqui!" required></textarea><br>
+
+                    <label><b>Por que você quer ser membro da staff?</b></label>
+                    <textarea class="campo" id="campo" type="text" name="membro_staff" placeholder="Responda aqui!" required></textarea><br>
+
+                    <label><b>Já teve experiência como membro da staff de algum servidor?</b></label>
+                    <label><b>Se sim, qual foi o cargo e quanto tempo você trabalhou:</b></label>
+                    <textarea class="campo" id="campo" type="text" name="experiencia" placeholder="Responda aqui!" required></textarea><br>
+
+                    <button onclick="ab()" id="fim" type="submit" name="enviar" value="Enviar" >Concluir</button>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p> &copy; Desenvolvido por <span>Vinicius</span>, programador Front End. Criado em: 27/11/2021</p>
+    </footer>
+
+</body>
+
+</html>
